@@ -55,8 +55,8 @@ export class Geometry implements EnumItem {
     ZoneMod.ALL,
   );
   static readonly CORNE = new Geometry(
-    "corne", //
-    "Corne",
+    "corne",
+    "Corne (Python)",
     "matrix",
     new Enum(),
   );
