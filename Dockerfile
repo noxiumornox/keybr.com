@@ -16,7 +16,7 @@ RUN git init && \
     git -c user.name="Docker Build" -c user.email="docker@localhost" commit -m "Docker build"
 
 # Compile monorepo and build bundle
-RUN npm run compile && npm run buildD
+RUN npm run compile && npm run build
 
 # Expose the application's default port
 EXPOSE 3000
